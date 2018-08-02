@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "thomas-millot-351782-unsplash@0,25x.jpg",
+      "filename" : "defaultPhoto@0,25x.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "thomas-millot-351782-unsplash@0,5x.jpg",
+      "filename" : "defaultPhoto@0,5x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "thomas-millot-351782-unsplash.jpg",
+      "filename" : "defaultPhoto.png",
       "scale" : "3x"
     }
   ],
