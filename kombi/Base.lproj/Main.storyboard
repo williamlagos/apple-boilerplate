@@ -8,6 +8,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,8 +20,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="L4L-ok-0vt">
-                                <rect key="frame" x="19.5" y="70" width="335" height="329"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="L4L-ok-0vt">
+                                <rect key="frame" x="19.5" y="70" width="335.5" height="405"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Freteiros" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zm-SY-O0b">
                                         <rect key="frame" x="0.0" y="0.0" width="90" height="29"/>
@@ -29,20 +30,20 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i67-eA-NFp">
-                                        <rect key="frame" x="0.0" y="29" width="335" height="30"/>
+                                        <rect key="frame" x="0.0" y="37" width="335.5" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeD-Sd-7vW">
-                                        <rect key="frame" x="0.0" y="59" width="68" height="30"/>
+                                        <rect key="frame" x="0.0" y="75" width="68" height="30"/>
                                         <state key="normal" title="Pesquisar"/>
                                         <connections>
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AXO-Jq-cfD"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="240" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="NEC-I9-urx">
-                                        <rect key="frame" x="0.0" y="89" width="240" height="240"/>
+                                        <rect key="frame" x="0.0" y="113" width="240" height="240"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="NEC-I9-urx" secondAttribute="height" multiplier="1:1" id="TCO-qm-Cdu"/>
@@ -51,6 +52,14 @@
                                             <outletCollection property="gestureRecognizers" destination="3AO-bY-A5a" appends="YES" id="Zxw-3P-4Tg"/>
                                         </connections>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6Jo-Dq-K1S" customClass="RatingControl" customModule="kombi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="361" width="252" height="44"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="starCount">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="i67-eA-NFp" secondAttribute="trailing" id="Fe0-Tc-FD1"/>
@@ -69,6 +78,7 @@
                         <outlet property="freighterNameLabel" destination="1Zm-SY-O0b" id="TU5-JZ-Vv6"/>
                         <outlet property="nameTextField" destination="i67-eA-NFp" id="rsO-Fn-dB1"/>
                         <outlet property="photoImageView" destination="NEC-I9-urx" id="bhB-YO-CZb"/>
+                        <outlet property="ratingControl" destination="6Jo-Dq-K1S" id="9Gb-53-UMj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
