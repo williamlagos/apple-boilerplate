@@ -44,17 +44,17 @@
 		3D829E3A21138E8300B571D2 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		3D829E3C211397AC00B571D2 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		3D8ACDBD211248FB001303E9 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
-		3D9733ED210C27160096EF1F /* kombi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kombi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9733ED210C27160096EF1F /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9733F0210C27160096EF1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D9733F2210C27160096EF1F /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		3D9733F5210C27160096EF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D9733F7210C27180096EF1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9733FA210C27180096EF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D9733FC210C27180096EF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D973401210C27190096EF1F /* kombiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kombiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D973401210C27190096EF1F /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D973405210C27190096EF1F /* kombiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kombiTests.swift; sourceTree = "<group>"; };
 		3D973407210C27190096EF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D97340C210C27190096EF1F /* kombiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kombiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D97340C210C27190096EF1F /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D973410210C27190096EF1F /* kombiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kombiUITests.swift; sourceTree = "<group>"; };
 		3D973412210C27190096EF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		3D9733E4210C27150096EF1F = {
 			isa = PBXGroup;
 			children = (
-				3D9733EF210C27160096EF1F /* kombi */,
-				3D973404210C27190096EF1F /* kombiTests */,
-				3D97340F210C27190096EF1F /* kombiUITests */,
+				3D9733EF210C27160096EF1F /* FoodTracker */,
+				3D973404210C27190096EF1F /* FoodTrackerTests */,
+				3D97340F210C27190096EF1F /* FoodTrackerUITests */,
 				3D9733EE210C27160096EF1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,14 +97,14 @@
 		3D9733EE210C27160096EF1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D9733ED210C27160096EF1F /* kombi.app */,
-				3D973401210C27190096EF1F /* kombiTests.xctest */,
-				3D97340C210C27190096EF1F /* kombiUITests.xctest */,
+				3D9733ED210C27160096EF1F /* FoodTracker.app */,
+				3D973401210C27190096EF1F /* FoodTrackerTests.xctest */,
+				3D97340C210C27190096EF1F /* FoodTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D9733EF210C27160096EF1F /* kombi */ = {
+		3D9733EF210C27160096EF1F /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
 				3D9733F0210C27160096EF1F /* AppDelegate.swift */,
@@ -119,33 +119,33 @@
 				3D9733F9210C27180096EF1F /* LaunchScreen.storyboard */,
 				3D9733FC210C27180096EF1F /* Info.plist */,
 			);
-			path = kombi;
+			path = FoodTracker;
 			sourceTree = "<group>";
 		};
-		3D973404210C27190096EF1F /* kombiTests */ = {
+		3D973404210C27190096EF1F /* FoodTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
 				3D973405210C27190096EF1F /* kombiTests.swift */,
 				3D973407210C27190096EF1F /* Info.plist */,
 			);
-			path = kombiTests;
+			path = FoodTrackerTests;
 			sourceTree = "<group>";
 		};
-		3D97340F210C27190096EF1F /* kombiUITests */ = {
+		3D97340F210C27190096EF1F /* FoodTrackerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				3D973410210C27190096EF1F /* kombiUITests.swift */,
 				3D973412210C27190096EF1F /* Info.plist */,
 			);
-			path = kombiUITests;
+			path = FoodTrackerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D9733EC210C27160096EF1F /* kombi */ = {
+		3D9733EC210C27160096EF1F /* FoodTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D973415210C27190096EF1F /* Build configuration list for PBXNativeTarget "kombi" */;
+			buildConfigurationList = 3D973415210C27190096EF1F /* Build configuration list for PBXNativeTarget "FoodTracker" */;
 			buildPhases = (
 				3D9733E9210C27160096EF1F /* Sources */,
 				3D9733EA210C27160096EF1F /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = kombi;
+			name = FoodTracker;
 			productName = kombi;
-			productReference = 3D9733ED210C27160096EF1F /* kombi.app */;
+			productReference = 3D9733ED210C27160096EF1F /* FoodTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3D973400210C27190096EF1F /* kombiTests */ = {
+		3D973400210C27190096EF1F /* FoodTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D973418210C27190096EF1F /* Build configuration list for PBXNativeTarget "kombiTests" */;
+			buildConfigurationList = 3D973418210C27190096EF1F /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */;
 			buildPhases = (
 				3D9733FD210C27190096EF1F /* Sources */,
 				3D9733FE210C27190096EF1F /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				3D973403210C27190096EF1F /* PBXTargetDependency */,
 			);
-			name = kombiTests;
+			name = FoodTrackerTests;
 			productName = kombiTests;
-			productReference = 3D973401210C27190096EF1F /* kombiTests.xctest */;
+			productReference = 3D973401210C27190096EF1F /* FoodTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3D97340B210C27190096EF1F /* kombiUITests */ = {
+		3D97340B210C27190096EF1F /* FoodTrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D97341B210C27190096EF1F /* Build configuration list for PBXNativeTarget "kombiUITests" */;
+			buildConfigurationList = 3D97341B210C27190096EF1F /* Build configuration list for PBXNativeTarget "FoodTrackerUITests" */;
 			buildPhases = (
 				3D973408210C27190096EF1F /* Sources */,
 				3D973409210C27190096EF1F /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				3D97340E210C27190096EF1F /* PBXTargetDependency */,
 			);
-			name = kombiUITests;
+			name = FoodTrackerUITests;
 			productName = kombiUITests;
-			productReference = 3D97340C210C27190096EF1F /* kombiUITests.xctest */;
+			productReference = 3D97340C210C27190096EF1F /* FoodTrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D9733E8210C27150096EF1F /* Build configuration list for PBXProject "kombi" */;
+			buildConfigurationList = 3D9733E8210C27150096EF1F /* Build configuration list for PBXProject "FoodTracker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,9 +232,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D9733EC210C27160096EF1F /* kombi */,
-				3D973400210C27190096EF1F /* kombiTests */,
-				3D97340B210C27190096EF1F /* kombiUITests */,
+				3D9733EC210C27160096EF1F /* FoodTracker */,
+				3D973400210C27190096EF1F /* FoodTrackerTests */,
+				3D97340B210C27190096EF1F /* FoodTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		3D973403210C27190096EF1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D9733EC210C27160096EF1F /* kombi */;
+			target = 3D9733EC210C27160096EF1F /* FoodTracker */;
 			targetProxy = 3D973402210C27190096EF1F /* PBXContainerItemProxy */;
 		};
 		3D97340E210C27190096EF1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D9733EC210C27160096EF1F /* kombi */;
+			target = 3D9733EC210C27160096EF1F /* FoodTracker */;
 			targetProxy = 3D97340D210C27190096EF1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -452,12 +452,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CY492ZD5PH;
-				INFOPLIST_FILE = kombi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FoodTracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.efforia.kombi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamlagos.foodtracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,12 +470,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CY492ZD5PH;
-				INFOPLIST_FILE = kombi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FoodTracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.efforia.kombi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamlagos.foodtracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,7 +499,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kombi.app/kombi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
 			name = Debug;
 		};
@@ -520,7 +520,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kombi.app/kombi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
 			name = Release;
 		};
@@ -567,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D9733E8210C27150096EF1F /* Build configuration list for PBXProject "kombi" */ = {
+		3D9733E8210C27150096EF1F /* Build configuration list for PBXProject "FoodTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D973413210C27190096EF1F /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D973415210C27190096EF1F /* Build configuration list for PBXNativeTarget "kombi" */ = {
+		3D973415210C27190096EF1F /* Build configuration list for PBXNativeTarget "FoodTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D973416210C27190096EF1F /* Debug */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D973418210C27190096EF1F /* Build configuration list for PBXNativeTarget "kombiTests" */ = {
+		3D973418210C27190096EF1F /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D973419210C27190096EF1F /* Debug */,
@@ -594,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D97341B210C27190096EF1F /* Build configuration list for PBXNativeTarget "kombiUITests" */ = {
+		3D97341B210C27190096EF1F /* Build configuration list for PBXNativeTarget "FoodTrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D97341C210C27190096EF1F /* Debug */,
