@@ -1,15 +1,15 @@
 //
-//  PomodoroTests.swift
-//  PomodoroTests
+//  AppTests.swift
+//  AppTests
 //
 //  Created by William Oliveira de Lagos on 27/07/20.
 //  Copyright © 2020 William Oliveira de Lagos. All rights reserved.
 //
 
 import XCTest
-@testable import Pomodoro
+@testable import App
 
-class PomodoroTests: XCTestCase {
+class AppTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Pomodoro
+//  App
 //
 //  Created by William Oliveira de Lagos on 27/07/20.
 //  Copyright © 2020 William Oliveira de Lagos. All rights reserved.

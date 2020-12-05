@@ -1,6 +1,6 @@
 //
-//  PomodoroUITests.swift
-//  PomodoroUITests
+//  AppUITests.swift
+//  AppUITests
 //
 //  Created by William Oliveira de Lagos on 27/07/20.
 //  Copyright © 2020 William Oliveira de Lagos. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class PomodoroUITests: XCTestCase {
+class AppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
